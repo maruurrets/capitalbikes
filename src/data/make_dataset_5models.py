@@ -61,8 +61,8 @@ def compare_models():
 
     # Return the model with the best MSE
     best_model_name = min(results, key=lambda x: results[x]["MSE"])
-    print(best_model_name)
-    #return models[best_model_name]
-
-best_model = compare_models()
+    #print(best_model_name)
+    return models[best_model_name]
     
+best_model = compare_models()
+print(best_model)
