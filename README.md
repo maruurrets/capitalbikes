@@ -18,7 +18,7 @@ python make_dataset_sol.py
 ### To see my solution:
 python make_dataset_5models.py
 
-### To se the scores and best hyperparameters for the selected model
+### To see the scores and best hyperparameters for the selected model
 python gradientboosting.py
 
 
