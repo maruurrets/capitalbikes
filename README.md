@@ -22,4 +22,4 @@ python make_dataset_5models.py
 python gradientboosting.py
 
 
-* These scripts are a bit different in code and model types but arrive to the same result.
+* These solution shown in the video and mine are a bit different in code and model types but arrive to the same result.
