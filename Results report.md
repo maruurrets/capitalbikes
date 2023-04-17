@@ -18,7 +18,8 @@ After trying a linear regression model I tried some other regression models to s
 - RANDOM FOREST REGRESSOR
 
 Gradient Boosting Regressor was the one that gave the best results in terms of MSE and R-squared with resultd of MSE: 60783.48, R2: 0.84
+After performing a grid search with cross-validation to find the best hyperparameters, we achieved an R-squared value of 0.856 and a mean squared error of 67905.947.
 
-To improve this analysis I could have added more hyperparameters to each movel and tuned them to try to improve their perforance, using grid search or random search. 
+Best parameters:  {'learning_rate': 0.1, 'max_depth': 4, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}
 
 
