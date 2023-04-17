@@ -11,7 +11,15 @@ https://www.youtube.com/watch?v=OmQiLvnY3WY
 
 ## How to run the project to see the results:
 Navigate to the src/data directory and then run the following commands:
-python make_dataset_5models.py
+
+### To see te solution showed in the video:
 python make_dataset_sol.py
+
+### To see my solution:
+python make_dataset_5models.py
+
+### To se the scores and best hyperparameters for the selected model
+python gradientboosting.py
+
 
 * These scripts are a bit different in code and model types but arrive to the same result.
