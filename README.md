@@ -22,6 +22,6 @@ python make_dataset_5models.py
 python gradientboosting.py
 
 ### To make predictions on new data 
-python trained_model_copy.py
+python predict_new_data.py
 
 * These solutions shown in the video and mine are a bit different in code and model types but arrive at the same result.
