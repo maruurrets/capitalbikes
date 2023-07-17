@@ -12,7 +12,7 @@ https://www.youtube.com/watch?v=OmQiLvnY3WY
 ## How to run the project to see the results:
 Navigate to the src/data directory and then run the following commands:
 
-### To see te solution showed in the video:
+### To see the solution shown in the video:
 python make_dataset_sol.py
 
 ### To see my solution:
@@ -21,5 +21,7 @@ python make_dataset_5models.py
 ### To see the scores and best hyperparameters for the selected model
 python gradientboosting.py
 
+### To make predictions on new data 
+python trained_model_copy.py
 
-* These solution shown in the video and mine are a bit different in code and model types but arrive to the same result.
+* These solutions shown in the video and mine are a bit different in code and model types but arrive at the same result.
