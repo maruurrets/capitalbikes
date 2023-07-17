@@ -29,7 +29,7 @@ def compare_algorithms(X, y):
     # Split the X into training and testing sets
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
     
-    # Create a dictionary to store the evaluatio scores for each algorithm
+    # Create a dictionary to store the evaluatioN scores for each algorithm
     scores = {}
 
     # Linear Regression

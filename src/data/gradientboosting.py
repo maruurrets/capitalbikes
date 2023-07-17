@@ -3,6 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.metrics import mean_squared_error, r2_score, make_scorer
 from sklearn.model_selection import GridSearchCV
+import joblib
 
 # Load the Xset
 df = pd.read_csv("../../data/raw/daily-bike-share.csv")
@@ -49,6 +50,9 @@ scoring = ["neg_mean_squared_error", "r2"]
 grid_search = GridSearchCV(model, param_grid=param_grid, cv=5, scoring=scoring, refit='neg_mean_squared_error')
 grid_search.fit(X_train, y_train)
 #print("Grid search results: ", grid_search.cv_results_)
+
+# Save the trained model to a file
+joblib.dump(grid_search.best_estimator_, "../../models/trained_model.pkl")
 
 # Print the results
 #print("Best hyperparameters: ", grid_search.best_estimator_.get_params())
